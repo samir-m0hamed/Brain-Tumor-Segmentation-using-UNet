@@ -23,8 +23,11 @@
 ## 🚀 Quick Start
 
 ### Prerequisites 
+
 - Python 3.8+
+  
 - CUDA 11.8+ (optional)
+  
 - 8GB+ RAM (CPU) or 4GB+ VRAM (GPU)
 
 
