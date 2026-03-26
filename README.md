@@ -15,8 +15,8 @@
 | **Dice Score** | 0.7803 ✅ |
 | **IoU** | 0.6421 ✅ |
 | **Test Loss** | 0.2197 ✅ |
-| **Epochs Trained** | 40 |
-| **Device** | GPU (CUDA) ⚡ |
+| **Epochs Trained** | 40 ✅|
+| **Device** | GPU (CUDA) ✅ |
 
 ---
 
@@ -59,9 +59,9 @@ Brain-Tumor-Segmentation-using-UNet/
 
 ---
 
-## 🏗️ Architecture
+## 📌 Architecture
 
-### 🧩 Model: U-Net + ResNet34 Encoder
+### Model: U-Net + ResNet34 Encoder
 
 ```
 Input (3, 256, 256)
@@ -73,7 +73,7 @@ Input (3, 256, 256)
 Output (1, 256, 256)
 ```
 
-### ✨ Key Features
+### Key Features
 - Pre-trained ResNet34 encoder
 - Skip connections (U-Net)
 - Batch Normalization
@@ -81,7 +81,7 @@ Output (1, 256, 256)
 
 ---
 
-## 🧮 Loss Function
+## 📌 Loss Function
 
 ### Dice Loss
 
@@ -94,14 +94,14 @@ def dice_loss(pred, target, smooth=1.0):
     return 1 - dice
 ```
 
-### 🎯 Why Dice Loss?
+### Why Dice Loss?
 - Handles class imbalance
 - Directly optimizes segmentation overlap
 - More stable for medical images
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ```python
 CONFIG = {
@@ -118,7 +118,7 @@ CONFIG = {
 
 ## 📈 Training Pipeline
 
-### 🧪 Data Preparation
+### Data Preparation
 1. Load COCO annotations  
 2. Generate binary masks  
 3. Filter low-signal images  
@@ -127,7 +127,7 @@ CONFIG = {
    - Normalize
    - Augmentation
 
-### ⚙️ Training Setup
+### Training Setup
 
 ```python
 optimizer = Adam(lr=0.0002)
@@ -162,7 +162,7 @@ scheduler = ReduceLROnPlateau(
 
 ---
 
-## 🔧 Improvements Applied
+## 📌 Improvements Applied
 
 | Fix | Impact |
 |-----|--------|
@@ -174,7 +174,7 @@ scheduler = ReduceLROnPlateau(
 
 ---
 
-## 📚 Usage
+## 📌 Usage
 
 ### Load Model
 
@@ -202,14 +202,14 @@ mask = (torch.sigmoid(output) > 0.5).int()
 - FN Rate: ~10–15%
 - FP Rate: ~15–20%
 
-### 🏥 Clinical Use
+### Clinical Use
 - Screening tool ✅
 - Second opinion ✅
 - Not a final diagnosis ❗
 
 ---
 
-## ⚡ Hardware
+## Hardware
 
 ### Minimum
 - CPU i5
@@ -266,7 +266,7 @@ CONFIG['batch_size'] = 8
 
 ---
 
-## 📬 Contact
+## 📌 Contact
 
 - Issues: GitHub Issues  
 - Discussions: GitHub Discussions  
