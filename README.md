@@ -22,13 +22,13 @@
 
 ## 🚀 Quick Start
 
-### ▶️ Prerequisites 
+### Prerequisites 
 - Python 3.8+
 - CUDA 11.8+ (optional)
 - 8GB+ RAM (CPU) or 4GB+ VRAM (GPU)
 
 
-### ▶️ Run Training
+### Run Training
 
 ```bash
 jupyter notebook "Brain Tumor Segmentation.ipynb"
