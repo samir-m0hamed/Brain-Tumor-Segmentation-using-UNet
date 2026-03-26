@@ -8,7 +8,7 @@
 
 ---
 
-## 📊 Results
+## 📌 Results
 
 | Metric | Value |
 |--------|-------|
@@ -119,7 +119,7 @@ CONFIG = {
 
 ---
 
-## 📈 Training Pipeline
+## 📌 Training Pipeline
 
 ### Data Preparation
 1. Load COCO annotations  
@@ -144,7 +144,7 @@ scheduler = ReduceLROnPlateau(
 
 ---
 
-## 📊 Dataset
+## 📌 Dataset
 
 ### COCO Format Example
 
@@ -198,7 +198,7 @@ mask = (torch.sigmoid(output) > 0.5).int()
 
 ---
 
-## 🎯 Performance
+## 📌 Performance
 
 - Dice: ~78%
 - IoU: ~64%
@@ -238,24 +238,12 @@ CONFIG['batch_size'] = 8
 
 ---
 
-## 📖 References
+## 📌 References
 
 - U-Net Paper  
 - ResNet Paper  
 - PyTorch Docs  
 - segmentation_models_pytorch  
-
----
-
-## 📝 Citation
-
-```bibtex
-@software{brain_tumor_segmentation_2026,
-  author = {Samir Mohamed},
-  title = {Brain Tumor Segmentation using U-Net},
-  year = {2026}
-}
-```
 
 ---
 
@@ -292,7 +280,7 @@ CONFIG['batch_size'] = 8
 
 ---
 
-## 📊 Final Summary
+## 📌 Final Summary
 
 ```
 Dice Score : 0.7803
