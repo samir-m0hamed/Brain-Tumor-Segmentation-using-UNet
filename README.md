@@ -15,8 +15,8 @@
 | **Dice Score** | 0.7803 ✅ |
 | **IoU** | 0.6421 ✅ |
 | **Test Loss** | 0.2197 ✅ |
-| **Epochs Trained** | 40 ✅|
-| **Device** | GPU (CUDA) ✅ |
+| **Epochs Trained** | 40 |
+| **Device** | GPU (CUDA)  |
 
 ---
 
