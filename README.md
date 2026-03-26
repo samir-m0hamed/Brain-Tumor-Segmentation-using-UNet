@@ -104,7 +104,7 @@ def dice_loss(pred, target, smooth=1.0):
 
 ---
 
-## Configuration
+## 📌 Configuration
 
 ```python
 CONFIG = {
@@ -212,7 +212,7 @@ mask = (torch.sigmoid(output) > 0.5).int()
 
 ---
 
-## Hardware
+## 📌 Hardware
 
 ### Minimum
 - CPU i5
