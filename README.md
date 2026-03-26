@@ -1,7 +1,7 @@
 # 🧠 Brain Tumor Segmentation using Pre-trained U-Net
 
 [![GitHub](https://img.shields.io/badge/GitHub-samir--m0hamed-blue)](https://github.com/samir-m0hamed/Brain-Tumor-Segmentation-using-Pre-trained-U-Net)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-green)](https://pytorch.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
 
 > **Accurate brain tumor segmentation using a pre-trained U-Net with ResNet34 encoder and COCO-format annotations**
